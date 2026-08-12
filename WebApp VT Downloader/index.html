@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#0a0a0a"
+    >
+
+    <title>Svvagy TikTok Downloader</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="hero">
+
+            <div class="logo">
+                Svvagy Project
+            </div>
+
+            <h1>
+                Svvagy TikTok Downloader
+            </h1>
+
+            <p class="subtitle">
+                Download video TikTok dengan mudah tanpa WM.
+            </p>
+
+        </header>
+
+
+        <section class="download-box">
+
+            <div class="input-wrapper">
+
+                <input
+                    id="urlInput"
+                    type="text"
+                    placeholder="Tempel link TikTok di sini..."
+                    autocomplete="off"
+                    spellcheck="false"
+                >
+
+                <button
+                    type="button"
+                    class="paste-button"
+                    id="pasteButton"
+                >
+                    Paste
+                </button>
+
+            </div>
+
+
+            <button
+                type="button"
+                id="downloadButton"
+                class="search-button"
+            >
+                Cari Video
+            </button>
+
+        </section>
+
+
+        <p
+            id="status"
+            class="status"
+            aria-live="polite"
+        ></p>
+
+
+        <div id="result"></div>
+
+
+        <section class="history-section">
+
+            <div class="history-header">
+
+                <div>
+                    <h2>Riwayat</h2>
+
+                    <p>
+                        Pencarian terakhir kamu
+                    </p>
+                </div>
+
+                <button
+                    type="button"
+                    id="clearHistory"
+                >
+                    Hapus Semua
+                </button>
+
+            </div>
+
+
+            <div id="historyList"></div>
+
+        </section>
+
+
+        <footer class="footer">
+
+            <span>
+                Svvagy TikTok Downloader
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
